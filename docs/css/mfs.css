@@ -1,0 +1,260 @@
+/* Formatted so it's ez to read. Please feel free to .min it yourself. */
+
+/* Coloours: http://clrs.cc/ */
+
+body {
+	font-size:16px;
+	line-height:1.5
+}
+
+
+h1,h2,h3,h4,h5,h6{ }
+
+
+.dropdown-menu {font-size:15px}
+
+a,
+a:hover{
+	color: #000
+}
+
+.ezpl-back-to-top{
+	font-size:2em;
+	opacity:.25;
+	color: #000;
+}
+.ezpl-back-to-top:hover{
+	opacity:1;
+	color: #af2525;
+}
+.ezpl-margin-top-30{
+	margin-top:30px
+}
+
+#menu2{
+	left:auto;
+	right:0
+}
+
+.nav > li > a {
+	padding: 7px 13px
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+	background-color:#E5E5E5;
+	background-color:#000;
+	color:#F5F5F5
+}
+
+.dropdown a,
+.dropdown a:hover{
+	color:#000
+}
+
+.nav a:hover .caret, .nav a:focus .caret {
+	border-bottom-color: #F5F5F5;
+	border-top-color: #F5F5F5;
+}
+
+.nav .caret {
+	border-bottom-color: #000;
+	border-top-color: #000;
+}
+
+.nav > li > a.start-here{
+	color:#fff;
+	background-color:#000
+}
+
+.nav > li > a.start-here:hover{
+	color:#F5F5F5	
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
+	color:#000;
+	background-color:#F5F5F5;
+}
+
+.nav > li.open > a.start-here{
+	color:#000;
+	background-color:#F5F5F5;
+}
+
+.nav > li.open > a.start-here .caret{
+	border-bottom-color: #000;
+	border-top-color: #000
+}
+
+.nav > li > a.start-here .caret{
+	border-bottom-color: #FFF; 
+	border-top-color: #FFF
+}
+
+.dropdown-menu{
+	border: none
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus{
+	color: #fff;
+	background-color:#000
+}
+
+.dropdown-menu > li > a.hover-pointer{
+	cursor:default
+}
+
+.btn-black{
+	background-color:#000;
+	border-color:#E5E5E5;
+	color:#FFF
+}
+
+.btn-black:hover{
+	background-color:#000;
+	border-color: #000;
+	color:#F5F5F5
+}
+
+.ezpl-footer{
+	border-bottom: none;
+	padding-bottom: 10PX;
+}
+
+.ezpl-row-button{
+	padding: 30px 5px 30px;
+}
+
+.list-row{
+	margin-top:5px
+}
+
+.li-line-space-1em li {padding-bottom:1.0em}
+
+#max-row-msg-wrap{height:30px; padding-left:4%}
+
+#ez-logo{
+	margin-top:5px
+}
+
+#ez-logo-wrap{
+	position: relative;
+	width:100%;
+	max-width:75px;
+	margin: 0 auto;
+	opacity:.25
+}
+
+#ez-logo-wrap:hover{
+	opacity:1
+}
+
+#ez-logo-background-square{
+	position: absolute; 
+	z-index:500;
+	top:0;
+	right:0;
+	bottom:0;
+	left:1%;
+	width:99%;
+}
+
+#ez-logo-img{
+	background-color:#000;
+}
+
+#ez-logo-img:hover{
+	background-color:#af2525;
+}
+
+#ez-logo-img {
+	position: relative; 
+	z-index:600;
+}
+
+#ez-logo-img  img{
+	width:100%;
+	padding-bottom:.5%;
+}
+
+/* -- NEW -- */
+
+.header,
+.footer {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.header{
+	z-index:1000;
+	padding-top: 2px;
+	margin-bottom: 5px;
+	height:45px;
+	background-color:#fff;
+	width:100%;
+	border-bottom: 2px solid #E5E5E5
+}
+
+.ezpl-jumbotron-below{
+	padding: 60px 0 20px;
+	background-color: #fff;
+	border-top: 2px solid #E5E5E5;
+	border-bottom: 2px solid #E5E5E5;
+}
+
+
+.btn-xl{
+	font-size:16px;
+	padding:14px 24px;
+}
+
+.ezpl-row{
+	padding:0;
+	padding-bottom: 25px;
+	border-bottom: 2px solid #E5E5E5
+}
+
+.portfolio-logo-wrap img{
+	width:100%
+}
+
+.footer {
+	border-top: 0px solid #E5E5E5;
+	padding-top: 20px;
+	color: #777;
+}
+
+/* -- */
+
+/* Customize container */
+@media (min-width: 768px) {
+	.container {
+		max-width: 730px;
+	}
+	
+    .jumbotron .container {
+      max-width: 730px
+	}	
+	
+}
+
+.container-narrow > hr {
+	margin: 30px 0;
+}
+
+
+pre code{
+	white-space:pre-line; 
+	font-size:1.3em
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+	.header,
+	.footer {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+}
