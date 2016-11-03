@@ -1,3 +1,3 @@
 # mf simchock logo portfolio
 
-http://TODO.com
+https://mfsimchock.github.io/logo-portfolio/
