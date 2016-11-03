@@ -214,6 +214,10 @@ a:hover{
 	border-bottom: 2px solid #E5E5E5
 }
 
+.ezpl-row-top{
+	margin-top:85px
+}
+
 .portfolio-logo-wrap img{
 	width:100%
 }
